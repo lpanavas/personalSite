@@ -2,16 +2,16 @@ import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 
-import { StyledContent } from './styles';
+import Container from 'react-bootstrap/Container';
 
 const Layout = ({ user, children }) => {
   return (
     <>
       <Header />
-      <StyledContent>
+      <Container>
         <div>{children}</div>
-      </StyledContent>
-      <Footer user={user} />
+        <Footer user={user} />
+      </Container>
     </>
   );
 };

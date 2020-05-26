@@ -16,12 +16,14 @@
       {
         "network": "GitHub",
         "username": "turokhunter",
-        "url": "https://github.com/Turokhunter"
+        "url": "https://github.com/Turokhunter",
+        "iconName": "github"
       },
       {
         "network": "Linkedin",
         "url": "https://www.linkedin.com/in/tarik-crnovrsanin-8b0aa3100/",
-        "username": "@Tarik Crnovrsanin"
+        "username": "@Tarik Crnovrsanin",
+        "iconName": "linkedin"
       }
     ]
   },
