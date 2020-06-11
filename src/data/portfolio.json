@@ -4,7 +4,7 @@
     "picture": "https://avatars0.githubusercontent.com/u/58340587?v=4",
     "label": "",
     "headline": "",
-    "summary": "",
+    "summary": "This is my story, and I'm sticking to it. ",
     "website": "https://tarikc.net",
     "blog": "",
     "yearsOfExperience": 5,
@@ -148,47 +148,6 @@
       ]
     }
   ],
-  "work": [
-    {
-      "company": "Hendricks Venture Capital",
-      "position": "Founding Partner",
-      "website": "https://gitconnected.com",
-      "location": "San Francisco, CA",
-      "summary": "We fund companies trying to change the world",
-      "isCurrentRole": true,
-      "startDate": "2020-01-01",
-      "endDate": "",
-      "start": {
-        "year": 2020,
-        "month": 1
-      },
-      "end": {},
-      "highlights": []
-    },
-    {
-      "company": "Pied Piper",
-      "position": "CEO",
-      "website": "http://www.piedpiper.com/",
-      "location": "Silicon Valley, CA",
-      "summary": "I am the CEO of PiedPiper and working on providing free and decentralized internet.",
-      "isCurrentRole": false,
-      "startDate": "2014-04-01",
-      "endDate": "2019-12-01",
-      "start": {
-        "year": 2014,
-        "month": 4
-      },
-      "end": {
-        "year": 2019,
-        "month": 12
-      },
-      "highlights": [
-        "Launched PiperNet, a decentralized internet for the world",
-        "Created PiedPiperCoin, a cryptocurrency to support the open internet",
-        "Discovered Middle-Out Compression which provides the highest standard for lossless compression"
-      ]
-    }
-  ],
   "publications": {
     "journal" : [
       {
@@ -198,122 +157,113 @@
         "year":"2018",
         "url" : "https://www.sciencedirect.com/science/article/pii/S2468502X1830055X",
         "video" : "https://youtu.be/u_kq2-pd8u0",
-        "supplement" : "https://takanori-fujiwara.github.io/s/prov-vis/index.html"
+        "supplement" : "https://takanori-fujiwara.github.io/s/prov-vis/index.html",
+        "image": "concise.png"
       },
       {
-        "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs.",
+        "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
         "authors":"Crnovrsanin, T., Chu J., and Ma KL.",
         "venue": "Journal Graph Algorithm Application (JGAA), 21(1), pp.55--80, ",
         "year":"2017",
-        "url" : "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf"
+        "url" : "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
+        "image": "Incremental.png"
       },
       {
-        "title": "Visualization Techniques for Categorical Analysis of Social Networks with Multiple Edge Sets.",
-        "authors":"Crnovrsanin, T., Muelder C., Faris B., Felmlee D., and Ma KL",
+        "title": "Visualization Techniques for Categorical Analysis of Social Networks with Multiple Edge Sets",
+        "authors":"Crnovrsanin, T., Muelder C., Faris B., Felmlee D., and Ma KL.",
         "venue": "Social Networks, vol. 37, pp. 56--64, ",
         "year":"2014",
-        "url" : "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044"
+        "url" : "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
+        "image": "SocialNetworks.png"
       },
       {
         "title": "Visual Reasoning about Social Networks using Centrality Sensitivities",
-        "authors":"Correa C., Crnovrsanin, T., and Ma KL",
+        "authors":"Correa C., Crnovrsanin, T., and Ma KL.",
         "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120",
         "year":"2012",
-        "url" : "https://ieeexplore.ieee.org/document/5669304"
+        "url" : "https://ieeexplore.ieee.org/document/5669304",
+        "image": "VisualReasoning.png"
       }
     ],
     "conference":[
       {
         "title": "An Interactive System for Exploring Historical Fire Data",
-        "authors":"Gomov M., Crnovrsanin, T., Dasu K. and Ma KL",
+        "authors":"Gomov M., Crnovrsanin, T., Dasu K. and Ma KL.",
         "venue": "IEEE Pacific Visualization Symposium (PacificVis), pp. 277--281,",
         "year":"2019",
-        "url" : "https://ieeexplore.ieee.org/document/8781588"
+        "url" : "https://ieeexplore.ieee.org/document/8781588",
+        "image": "Historical.png"
       },
       {
         "title": "What Would a Graph Look Like in this Layout? A Machine Learning Approach to Large Graph Visualization",
-        "authors": "Kwon OH., Crnovrsanin, T., and Ma KL",
+        "authors": "Kwon OH., Crnovrsanin, T., and Ma KL.",
         "venue": "IEEE Transaction Visualization Computer Graph, 24(1), pp. 478--488, ",
         "year": "2018",
         "supplement" : "http://kwon.cs.ucdavis.edu/wgl",
         "url" : "https://arxiv.org/abs/1710.04328",
         "previewvide": "https://vimeo.com/230840405",
-        "code": "https://github.com/VIDILabs/glam"
+        "code": "https://github.com/VIDILabs/glam",
+        "image": "GraphLook.png"
       },
       {
-        "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs.",
-        "authors":"Crnovrsanin, T., Chu J., and Ma KL",
+        "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
+        "authors":"Crnovrsanin, T., Chu J., and Ma KL.",
         "venue": "Conference on Graph Drawing and Network Visualization, pp. 16--29, ",
         "year":"2015",
-        "url" : "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf"
+        "url" : "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
+        "image": "Incremental.png"
       },
       {
         "title": "A System for Visual Analysis of Radio Signal Data",
-        "authors":"Crnovrsanin, T., Muelder C., and Ma KL",
+        "authors":"Crnovrsanin, T., Muelder C., and Ma KL.",
         "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 33--42, ",
         "year":"2014",
         "url" : "https://ieeexplore.ieee.org/document/7042479/",
-        "previewvideo" : "https://vimeo.com/104495491"
+        "previewvideo" : "https://vimeo.com/104495491",
+        "image": "RadioSignal.png"
       },
       {
-        "title": "Stimulating a Blink: Reduction of Eye Fatigue with Visual Stimulus.",
-        "authors":"Crnovrsanin, T., Wang Y., and Ma KL",
+        "title": "Stimulating a Blink: Reduction of Eye Fatigue with Visual Stimulus",
+        "authors":"Crnovrsanin, T., Wang Y., and Ma KL.",
         "venue": "Conference on Human Factors in Computing Systems(CHI), pp. 33--42, ",
         "year":"2014",
-        "url" : "http://vis.cs.ucdavis.edu/papers/blink.pdf"
+        "url" : "http://vis.cs.ucdavis.edu/papers/blink.pdf",
+        "image": "Stimulating.png"
       },
       {
         "title": "Egocentric Storylines for Visual Analysis of Large Dynamic Graphs",
-        "authors":"Muelder C., Crnovrsanin, T., Sallaberry A., and Ma KL",
+        "authors":"Muelder C., Crnovrsanin, T., Sallaberry A., and Ma KL.",
         "venue": "IEEE Workshop on Big Data Visualization, pp. 56--62, ",
         "year":"2013",
-        "url" : "https://ieeexplore.ieee.org/document/6691715"
+        "url" : "https://ieeexplore.ieee.org/document/6691715",
+        "image": "Egocentric.png"
       },
       {
-        "title": "Visual Recommendations for Network Navigation.",
-        "authors":"Crnovrsanin, T., Liao I., Wu Y., and Ma KL",
+        "title": "Visual Recommendations for Network Navigation",
+        "authors":"Crnovrsanin, T., Liao I., Wu Y., and Ma KL.",
         "venue": "In Proceedings of the Eurovis, vol. 30, pp. 1081--1090, ",
         "year":"2011",
-        "url" : "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf"
+        "url" : "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
+        "image": "Recommendations.png"
       },
       {
-        "title": "Social Network Discovery based on Sensitivity Analysis.",
-        "authors":"Crnovrsanin, T., Correa C., and Ma KL",
+        "title": "Social Network Discovery based on Sensitivity Analysis",
+        "authors":"Crnovrsanin, T., Correa C., and Ma KL.",
         "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM), pp. 107--112, ",
         "year":"2009",
-        "url" : "https://ieeexplore.ieee.org/document/5231923"
+        "url" : "https://ieeexplore.ieee.org/document/5231923",
+        "image": "Sensitivity.png"
       },
       {
-        "title": "Proximity-based Visualization of Movement Trace Data.",
-        "authors":"Crnovrsanin, T., Muelder C., Correa C., and Ma KL",
+        "title": "Proximity-based Visualization of Movement Trace Data",
+        "authors":"Crnovrsanin, T., Muelder C., Correa C., and Ma KL.",
         "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 11--18, ",
         "year":"2009",
-        "url" : "https://ieeexplore.ieee.org/document/5332593"
+        "url" : "https://ieeexplore.ieee.org/document/5332593",
+        "image": "Proximity.png"
       }
     ]
   },
-  "education": [
-    {
-      "institution": "Stanford",
-      "area": "Computer Science",
-      "studyType": "Bachelor's of Science",
-      "website": "",
-      "startDate": "2012-01-01",
-      "endDate": "2014-01-01",
-      "start": {
-        "year": 2012,
-        "month": null
-      },
-      "end": {
-        "year": 2014,
-        "month": null
-      },
-      "description": "I studied computer science at Stanford",
-      "activities": "",
-      "gpa": "4.0/4.0",
-      "courses": []
-    }
-  ],
   "volunteer": [
     {
       "organization": "Startup Founders",
@@ -336,14 +286,26 @@
   ],
   "awards": [
     {
-      "title": "Tethics Honorary Member",
-      "summary": "It's tech and ethics - tethics",
-      "awarder": "Gavin Belson Foundation",
-      "date": "2019-12-01",
-      "fullDate": {
-        "year": 2019,
-        "month": 12
-      }
+      "title": "Best Paper Award in 23rd International Symposium on Graph Drawing and Network Visualization",
+      "summary": "Recieved in 2015 for the paper \"An Incremental Layout Method for Visualizing Online Dynamic Graphs\"."
+    },
+    {
+      "title": "GGCS Best Graduate Researcher Award",
+      "summary": "Recieved in 2015 at University of California, Davis"
+    },
+    {
+      "title": "GGCS Graduate Fellowship",
+      "summary": "Recieved in 2009, 2014 at University of California, Davis"
+    },
+    {
+      "title": "Intuitive Social Network Graphs in VAST 2008 Challenge",
+      "summary": "Recieved in 2008 with C. Correa, C. Muelder, T. Crnovrsanin, J. Shearer, KL. Ma." 
+    }
+  ],
+  "press": [
+    {
+      "title": "Best Paper Award, 23rd International Symposium on Graph Drawing and network Visualization",
+      "summary": "Re"
     }
   ],
   "languages": [],

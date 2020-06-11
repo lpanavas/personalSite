@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph, Pill } from '../../styles';
 import { Image, Row, Col} from 'react-bootstrap';
-// import { ProfileLink } from './styles';
+import {StyledImage} from './styles';
 
 const BoldName = ({text = ''})=>{
     return (
@@ -18,7 +18,7 @@ const Papers = ({papers}) => {
         {papers.map(pub => (
             <Row>
             <Col xs={3} md={2}>
-                <Image src="logo512.png" thumbnail/>
+                <StyledImage src={pub.image} thumbnail />
             </Col>
             <Col xs={12} md={8}>
                 <h4>{pub.title}</h4>
@@ -45,11 +45,11 @@ const Publications = ({ user }) => {
   return (
     <Layout user={user}>
       <div>
-        <SectionTitle>Journal Publications</SectionTitle>
+        <SectionTitle id='journal'>Journal Publications</SectionTitle>
         <Papers papers = {user.publications.journal}/>
       </div>
       <div>
-        <SectionTitle>Conference Publications</SectionTitle>
+        <SectionTitle id='conference'>Conference Publications</SectionTitle>
         <Papers papers = {user.publications.conference}/>
       </div>
     </Layout>
