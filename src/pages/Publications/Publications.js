@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
+import { SectionTitle} from '../../styles';
 import { Image, Row, Col} from 'react-bootstrap';
 import {StyledImage} from './styles';
 
@@ -8,7 +8,9 @@ const BoldName = ({text = ''})=>{
     return (
         <div dangerouslySetInnerHTML={{
             __html: text.replace("Crnovrsanin, T", (match, i) => `<b>Crnovrsanin, T</b>`)
-        }}></div>
+        }}>
+
+        </div>
       )
 }
 
