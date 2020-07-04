@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 const Layout = ({ user, children }) => {
   return (
     <>
-      <Header />
       <Container>
+        <Header />
         <div>{children}</div>
         <Footer user={user} />
       </Container>

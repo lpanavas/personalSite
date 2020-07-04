@@ -4,7 +4,7 @@
     "picture": "https://avatars0.githubusercontent.com/u/58340587?v=4",
     "label": "",
     "headline": "",
-    "summary": "This is my story, and I'm sticking to it. ",
+    "summary": "I am a graduate researcher with Kwan-Liu Ma at the Visualization and Interface Design Innovation(VIDI) lab at the University of California, Davis. My research focuses on visualizations, techniques, and systems for a range of datasets, including static and dynamic networks, radio signals, and fire data. I am currently leading and co-leading several teams in systems designed around exploring social networks and California wildfire datasets.\n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 5+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production.  I also utilize my visualization skills to create interfaces that allow customers to customize and view their purchases live on the web. ",
     "website": "https://tarikc.net",
     "blog": "",
     "yearsOfExperience": 5,
@@ -43,6 +43,34 @@
       "keywords": []
     }
   ],
+  "selectedprojects" : [
+      {
+        "title": "",
+        "summary": "",
+        "image" : "",
+        "link" : ""
+      }
+  ],
+  "selectedpapers" : [
+    {
+      "title": "Drawing Graphs with Multi-level Maps",
+      "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
+      "image" : "mgmap.png",
+      "link" : "/publications"
+    },
+    {
+      "title": "What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization",
+      "summary": "We present a machine learning approach to large graph visualization based on computing the topological similarity of graphs using graph kernels. For a given graph, our approach can show what the graph would look like in different layouts and estimate their corresponding aesthetic metrics.",
+      "image" : "GraphLook.png",
+      "link" : "/publications"
+    },
+    {
+      "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
+      "summary": "A novel incremental layout method designed for online dynamic graphs that uses the concept of 'energy' to move nodes with high energy into low energy states. Our resulting visualization maintains readability of the graph structure and is efficient in laying out these changing networks.",
+      "image" : "Incremental.png",
+      "link" : "/publications"
+    }
+],
   "projects":  [
       {
         "title": "Research",
