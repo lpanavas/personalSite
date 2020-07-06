@@ -74,7 +74,7 @@
   "projects":  [
       {
         "title": "Research",
-        "summary" : "I should say something about my research",
+        "summary" : "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
         "entries": [
           {
             "title": "Research project title",
@@ -84,20 +84,20 @@
       },
       {
         "title": "3D design",
-        "summary" : "I should say something about my 3d work",
+        "summary" : "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
         "entries": [
           {
-            "title": "Research project title",
+            "title": "Jupiter",
             "html" :"<p>this is text with images and all that jazz</p>"
           }
         ]
       },
       {
         "title": "Side Projects",
-        "summary" : "Some of my more interesting projects side projects on free time.",
+        "summary" : "When I find the time(haha), I like to apply my visualization and programming skillset to some interesting side projects.",
         "entries": [
           {
-            "title": "Research project title",
+            "title": "3D Color and Option Picker",
             "html" :"<p>this is text with images and all that jazz</p>"
           }
         ]
