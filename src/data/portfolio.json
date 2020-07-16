@@ -78,7 +78,9 @@
         "entries": [
           {
             "title": "Research project title",
-            "html" :"<p>this is text with images and all that jazz</p>"
+            "html" : [
+              { "p" : "this is text with images and all that jazz"}
+            ]
           }
         ]
       },
@@ -88,7 +90,41 @@
         "entries": [
           {
             "title": "Jupiter",
-            "html" :"<p>this is text with images and all that jazz</p>"
+            "html" : [
+              { "p" : "This project was the first full blaster I created in the collaborator with Luke(Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A). He asked me to improve the prototype design and create something that he could sell to his customers."},
+              { "image":
+                {
+                  "src": "JupiterOldvsNew.png",
+                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
+                  "width" : 720
+                }
+              },
+              [
+                { "video": {
+                  "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
+                  "width": 374,
+                  "height": 210,
+                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  }
+                },
+                { "video": {
+                  "src":"https://www.youtube.com/embed/A4QA7Ux4oYA",
+                  "width": 374,
+                  "height": 210,
+                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  }
+                }
+              ],
+              { "p" : "This project was the first full blaster I created in the collaborator with Luke(Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A). He asked me to improve the prototype design and create something that he could sell to his customers."},
+              { "video": {
+                "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
+                "width": 374,
+                "height": 210,
+                "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+
+                }
+              }
+            ] 
           }
         ]
       },
@@ -98,7 +134,9 @@
         "entries": [
           {
             "title": "3D Color and Option Picker",
-            "html" :"<p>this is text with images and all that jazz</p>"
+            "html" : [
+              { "p" : "this is text with images and all that jazz"}
+            ]
           }
         ]
       }
