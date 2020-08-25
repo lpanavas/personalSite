@@ -21,6 +21,9 @@ const Pages = ({ user }) => {
         <Route exact path="/publicity">
           <Publicity user={user} />
         </Route>
+        <Route path="*">
+          <Home user={user} />
+        </Route>
       </Switch>
     </Router>
   );
