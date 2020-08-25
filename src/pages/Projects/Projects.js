@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import {Figure, Row, Col} from 'react-bootstrap'
+import {Figure, Row, Col, Button} from 'react-bootstrap'
 // import { ProfileLink } from './styles';
 
 
@@ -11,12 +11,20 @@ const Html = ({ele}) => {
         <p>{ele.p}</p>
       </Col>
     )
+  } else if(ele.link){
+    var link = ele.link;
+    return (
+      <Col xs={18} md={12}>
+          {link.text}
+          <Button variant="link" href={link.url}>{link.linkText}</Button>
+      </Col>
+    )
   } else if(ele.image){
     var image = ele.image;
     return (
       <Col xs={12} md={8}>
         <Figure>
-          <Figure.Image 
+          <Figure.Image
           height = {image.height ? image.height : "100%"}
           width = {image.width ? image.width : "100%"}
           src = {image.src}
@@ -31,7 +39,7 @@ const Html = ({ele}) => {
     var video = ele.video;
     return (
       <Col xs={9} md={4}>
-        <iframe 
+        <iframe
           width = {video.width ? video.width : "100%"}
           height = {video.height ? video.height : "100%"}
           src = {video.src}
@@ -40,14 +48,14 @@ const Html = ({ele}) => {
           allowFullScreen>
 
           </iframe>
-        
+
       </Col>
     )
   } else if(ele && ele.length > 1){
     return (
       <>
       { ele.map(entry =>(
-          <Html ele={entry}/>              
+          <Html ele={entry}/>
       ))}
       </>
     )
@@ -69,7 +77,7 @@ const Entry = ({entry}) => {
       </Row>
       { entry.html.map(html =>(
         <Row className="justify-content-md-center">
-          <Html ele={html}/>              
+          <Html ele={html}/>
         </Row>
       ))}
       {/* <div dangerouslySetInnerHTML = {{__html:entry.html}}></div> */}
@@ -90,7 +98,7 @@ const Projects = ({ user }) => {
               <p>{section.summary}</p>
             </Row>
             {section.entries.map(entry =>(
-                <Entry entry={entry}/>              
+                <Entry entry={entry}/>
             ))}
           </>
         ))}

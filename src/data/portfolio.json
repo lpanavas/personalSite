@@ -91,7 +91,7 @@
           {
             "title": "Jupiter",
             "html" : [
-              { "p" : "This project was the first full blaster I created in the collaborator with Luke(Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A). He asked me to improve the prototype design and create something that he could sell to his customers."},
+              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
               { "image":
                 {
                   "src": "JupiterOldvsNew.png",
@@ -99,6 +99,7 @@
                   "width" : 720
                 }
               },
+              { "p" : "Beyond the visual enchantment, I implemented several Quality of life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved grip, added battery tray, and provided comfortable placement of trigger finger.  Internally, some changes include easy of assembling and response trigger press.  Also, I replaced a fraction fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the right video."},
               [
                 { "video": {
                   "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
@@ -115,7 +116,7 @@
                   }
                 }
               ],
-              { "p" : "This project was the first full blaster I created in the collaborator with Luke(Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A). He asked me to improve the prototype design and create something that he could sell to his customers."},
+              { "p" : "The Jupiter has released to high praise and as the time of writing has over 2 million collective views. A review of the blaster can be in the video below from one of the largest nerf channels."},
               { "video": {
                 "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
                 "width": 374,
@@ -135,7 +136,29 @@
           {
             "title": "3D Color and Option Picker",
             "html" : [
-              { "p" : "this is text with images and all that jazz"}
+              { "p" : "One of the major strengths of 3D printing is the ability for the customer to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide means for the user to visually see their choice immediately. It is unreasonable to photograph every possible permutation with potentially so many combinations and color choices.  There are so many possible parts and color choices that are unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL viewer and menu system that loads 3D printed files and updates them based on the customer's color and choices in real-time."},
+              { "image":
+                {
+                  "src": "JupiterOldvsNew.png",
+                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
+                  "width" : 720
+                }
+              },
+              {"p" : "We automatically generate the menu system from two JSON files. One JSON file describes where the STL file location, camera position, and product breakdown. The second JSON file contains information about filaments, such as cost tier and color in hex. This allows for a global filament file that makes adding and remove filament across all items easy. The left visualization provides basic capabilities such as zoom and pan and updates instantly based on the user selection from the menu on the right. The user selects a color by either through section menu or individual customizing each component in the section. The dropdown menu separates color based on the cost tier. As visualization on the right cannot capture the exact color, or any nuance the filament might have such as glitter, mousing over each color provides a color correct swatch. When choosing a more expensive filament, the price changes and text updates to indicate the price difference in that section."},
+              { "link":
+                {
+                  "text" : "For a live example of the code running, please check Jupiter listing:",
+                  "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
+                  "linkText" : "Jupiter Build it yourself"
+                }
+              },
+              { "link":
+                {
+                  "text" : "For those interested in the implementation, starting code can be found in GitHub:",
+                  "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
+                  "linkText" : "Github"
+                }
+              }
             ]
           }
         ]

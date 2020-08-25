@@ -69,13 +69,13 @@ const Header = () => {
   return (
     // <Navbar expand = "lg" bg="light" variant="light" fixed= "top">
     
-    <Navbar fluid expand = "lg">
+    <Navbar fluid="true" expand="lg">
       <Navbar.Brand style={{fontSize: "2rem"}} href="/">Tarik Crnovrsanin</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          {items.map(i => (
-            <Nav.Item  className="flex-column">
+          {items.map((i, idx) => (
+            <Nav.Item  key={idx} className="flex-column">
               <StyledNavMain style ={{color: "#000000"}}
                 element={Link}
                 href={i.path}

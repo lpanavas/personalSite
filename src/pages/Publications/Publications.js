@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle} from '../../styles';
-import { Image, Row, Col} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import {StyledImage} from './styles';
 
 const BoldName = ({text = ''})=>{

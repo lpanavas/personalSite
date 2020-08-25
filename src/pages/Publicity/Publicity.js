@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
+import { SectionTitle } from '../../styles';
 import {Row, Col, Image} from 'react-bootstrap'
 // import { ProfileLink } from './styles';
 

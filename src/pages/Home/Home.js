@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph, Pill } from '../../styles';
+import { SectionTitle, Paragraph} from '../../styles';
 import {Col, Image, Row, Card, CardDeck} from "react-bootstrap";
 import Media from '../../components/Media'
 // import { ProfileLink } from './styles';
@@ -9,16 +9,16 @@ import Media from '../../components/Media'
 const Cards = ({items}) => {
   return (
       <CardDeck>
-      {items.map(item => (
-        <Card style={{ width: '22rem' }}>
-        <Card.Img variant="top" src={item.image} />
-        <Card.Body>
-        <Card.Title>{item.title}</Card.Title>
-          <Card.Text>
-          {item.summary}
-          </Card.Text>
-          <Card.Link href={item.link}>Details</Card.Link>
-        </Card.Body>
+      {items.map((item, index) => (
+        <Card key={index} style={{ width: '22rem' }}>
+          <Card.Img variant="top" src={item.image} />
+          <Card.Body>
+          <Card.Title>{item.title}</Card.Title>
+            <Card.Text>
+            {item.summary}
+            </Card.Text>
+            <Card.Link href={item.link}>Details</Card.Link>
+          </Card.Body>
         
         </Card>
         ))}
