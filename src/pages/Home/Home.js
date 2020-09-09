@@ -47,12 +47,12 @@ const Home = ({ user }) => {
           <Cards items={user.selectedpapers} />
         </div>
       </Row>
-      <Row>
+      {/* <Row>
         <div>
           <SectionTitle>Selected Projects</SectionTitle>
           <Cards items={user.selectedprojects} />
         </div>
-      </Row>
+      </Row> */}
     </Layout>
   );
 };
