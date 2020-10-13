@@ -7,7 +7,7 @@ import Publicity from './Publicity';
 
 const Pages = ({ user }) => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route exact path="/">
           <Home user={user} />
