@@ -136,11 +136,11 @@
           {
             "title": "3D Color and Option Picker",
             "html" : [
-              { "p" : "One of the major strengths of 3D printing is the ability for the customer to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide means for the user to visually see their choice immediately. It is unreasonable to photograph every possible permutation with potentially so many combinations and color choices.  There are so many possible parts and color choices that are unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL viewer and menu system that loads 3D printed files and updates them based on the customer's color and choices in real-time."},
+              { "p" : "One of the major strengths of 3D printing is the ability for the customer to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide means for the user to visually see their choice immediately. It is unreasonable to photograph every possible permutation with potentially so many combinations and color choices.  There are so many possible parts and color choices that are unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's color and choices in real-time."},
               { "image":
                 {
-                  "src": "JupiterOldvsNew.png",
-                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
+                  "src": "STLViewer.png",
+                  "caption": "Figure A. Illustration of the menu system and STL Viewer. The user chooses what colors and options they would prefer(on the right), and the results are displayed on the left. The Viewer allows for panning and zooming so that the user has a better idea of their choices made.",
                   "width" : 720
                 }
               },
