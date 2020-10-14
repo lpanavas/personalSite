@@ -77,9 +77,9 @@
         "summary" : "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
         "entries": [
           {
-            "title": "Research project title",
+            "title": "Coming soon",
             "html" : [
-              { "p" : "this is text with images and all that jazz"}
+              { "p" : "Still under construction."}
             ]
           }
         ]
@@ -320,10 +320,6 @@
     }
   ],
   "press": [
-    {
-      "title": "Best Paper Award, 23rd International Symposium on Graph Drawing and network Visualization",
-      "summary": "Re"
-    }
   ],
   "languages": [],
   "interests": [],
