@@ -160,6 +160,34 @@
                 }
               }
             ]
+          },
+          {
+            "title": "Menu Creator",
+            "html" : [
+              { "p" : "As with any design, one innovation can cause a cascading effect. The menu system shown above is great for the customers as it provides more customization of products. An unintended by-product of such a design is the act of creating said menu system becomes more complicated. Though JSON files are a common format for passing data, they are not intuitive to construct, especially for an average individual lacking training in creating such listings. To combat this issue and standardize the JSON file's construct, we create a Menu Creator tool."},
+              { "image":
+                {
+                  "src": "MenuCreator.png",
+                  "caption": "Figure A. The staff creates and populates options on the left. A live preview of the choicess are shown on the top right. Lastly, variants and mapping of variants are done on the bottom right.",
+                  "width" : 720
+                }
+              },
+              {"p" : "The tool makes the process of generating the listing considerably easier. The staff can create one of three types of options; dropdown, color picker, or checkbox. More complex options are offered when the item in question needs a 3D render of it.  The tool supports duplication and reorganization and shows a live preview of the options and their selections. Once the staff is satisfied with their choice, they can use the \"setprice\" button to create variants needed for Shopify. Variants are what Shopify uses to set prices on a combination of options. Shopify only allows 99 variants and three options. This small selection is quite limiting for 3D printed objects with 20 color choices and multiple options.  We overcome Shopify's limitation by allowing the staff to create price buckets, allowing multiple option combinations to map to the same variant or price bucket. The buckets can be made manually or automatically through the auto-populate feature."},
+              { "link":
+                {
+                  "text" : "For a live example of the code running, please check out demo:",
+                  "url": "https://turokhunter.github.io/Menu-Creator/",
+                  "linkText" : "Git Live Example"
+                }
+              },
+              { "link":
+                {
+                  "text" : "For those interested in the implementation, the code can be found in GitHub:",
+                  "url": "https://github.com/Turokhunter/Menu-Creator",
+                  "linkText" : "Github"
+                }
+              }
+            ]
           }
         ]
       }
