@@ -4,7 +4,7 @@
     "picture": "https://avatars0.githubusercontent.com/u/58340587?v=4",
     "label": "",
     "headline": "",
-    "summary": "I am a graduate researcher with Kwan-Liu Ma at the Visualization and Interface Design Innovation(VIDI) lab at the University of California, Davis. My research focuses on visualizations, techniques, and systems for a range of datasets, including static and dynamic networks, radio signals, and fire data. I am currently leading and co-leading several teams in systems designed around exploring social networks and California wildfire datasets.\n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 5+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production.  I also utilize my visualization skills to create interfaces that allow customers to customize and view their purchases live on the web. ",
+    "summary": "I am a research associate with Kwan-Liu Ma at the Visualization and Interface Design Innovation(VIDI) lab at the University of California, Davis. My research focuses on visualizations, techniques, and systems for a range of datasets, including static and dynamic networks, radio signals, and fire data. I am currently leading and co-leading several teams in systems designed around exploring social networks and California wildfire datasets.\n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 5+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production.  I also utilize my visualization skills to create interfaces that allow customers to customize and view their purchases live on the web. ",
     "website": "https://tarikc.net",
     "blog": "",
     "yearsOfExperience": 5,
@@ -91,7 +91,7 @@
           {
             "title": "Jupiter",
             "html" : [
-              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
+              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
               { "image":
                 {
                   "src": "JupiterOldvsNew.png",
@@ -99,7 +99,7 @@
                   "width" : 720
                 }
               },
-              { "p" : "Beyond the visual enchantment, I implemented several Quality of life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved grip, added battery tray, and provided comfortable placement of trigger finger.  Internally, some changes include easy of assembling and response trigger press.  Also, I replaced a fraction fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the right video."},
+              { "p" : "Beyond the visual enhancement, I implemented several Quality of Life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved the grip, added a battery tray, and provided a comfortable placement of the trigger finger.  Internally, some changes include ease of assembling and response trigger press.  I also replaced a friction-fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the video on the right."},
               [
                 { "video": {
                   "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
@@ -116,7 +116,7 @@
                   }
                 }
               ],
-              { "p" : "The Jupiter has released to high praise and as the time of writing has over 2 million collective views. A review of the blaster can be in the video below from one of the largest nerf channels."},
+              { "p" : "The Jupiter has released to high praise and, as of the time of writing this, has over 2 million collective views. A review of the blaster can be found in the video below from one of the most popular Nerf channels."},
               { "video": {
                 "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
                 "width": 374,
@@ -131,20 +131,20 @@
       },
       {
         "title": "Side Projects",
-        "summary" : "When I find the time(haha), I like to apply my visualization and programming skillset to some interesting side projects.",
+        "summary" : "When I find the time (haha), I like to apply my visualization and programming skillset to some interesting side projects.",
         "entries": [
           {
             "title": "3D Color and Option Picker",
             "html" : [
-              { "p" : "One of the major strengths of 3D printing is the ability for the customer to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide means for the user to visually see their choice immediately. It is unreasonable to photograph every possible permutation with potentially so many combinations and color choices.  There are so many possible parts and color choices that are unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's color and choices in real-time."},
+              { "p" : "One of the major strengths of 3D printing is the ability for the customers to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide the means for the user to visually see their choice immediately.  There are so many possible parts and color choices that it is unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's colors and choices in real-time."},
               { "image":
                 {
                   "src": "STLViewer.png",
-                  "caption": "Figure A. Illustration of the menu system and STL Viewer. The user chooses what colors and options they would prefer(on the right), and the results are displayed on the left. The Viewer allows for panning and zooming so that the user has a better idea of their choices made.",
+                  "caption": "Figure B. Illustration of the menu system and STL Viewer. The user chooses what colors and options they would prefer (on the right), and the results are displayed on the left. The Viewer allows for panning and zooming so that the user has a better idea of their choices made.",
                   "width" : 720
                 }
               },
-              {"p" : "We automatically generate the menu system from two JSON files. One JSON file describes where the STL file location, camera position, and product breakdown. The second JSON file contains information about filaments, such as cost tier and color in hex. This allows for a global filament file that makes adding and remove filament across all items easy. The left visualization provides basic capabilities such as zoom and pan and updates instantly based on the user selection from the menu on the right. The user selects a color by either through section menu or individual customizing each component in the section. The dropdown menu separates color based on the cost tier. As visualization on the right cannot capture the exact color, or any nuance the filament might have such as glitter, mousing over each color provides a color correct swatch. When choosing a more expensive filament, the price changes and text updates to indicate the price difference in that section."},
+              {"p" : "We automatically generate the menu system from two JSON files. One JSON file describes where the STL file location, camera position, and product breakdown. The second JSON file contains information about filaments, such as cost tier and color in hex. This allows for a global filament file that makes adding and removing filament across all items easy. The left visualization provides basic capabilities such as zoom and pan and updates instantly based on the user selection from the menu on the right. The user selects a color by either the section menu or individually customizing each component in the section. The dropdown menu separates color based on the cost tier. As the visualization on the right cannot capture the exact color, or any nuances the filament might have such as glitter, mousing over each color provides a color correct swatch. When choosing a more expensive filament, the price changes and text updates to indicate the price difference in that section."},
               { "link":
                 {
                   "text" : "For a live example of the code running, please check Jupiter listing:",
@@ -168,14 +168,14 @@
               { "image":
                 {
                   "src": "MenuCreator.png",
-                  "caption": "Figure A. The staff creates and populates options on the left. A live preview of the choicess are shown on the top right. Lastly, variants and mapping of variants are done on the bottom right.",
+                  "caption": "Figure C. The staff creates and populates options on the left. A live preview of the choices are shown on the top right. Lastly, variants and mapping of variants are done on the bottom right.",
                   "width" : 720
                 }
               },
-              {"p" : "The tool makes the process of generating the listing considerably easier. The staff can create one of three types of options; dropdown, color picker, or checkbox. More complex options are offered when the item in question needs a 3D render of it.  The tool supports duplication and reorganization and shows a live preview of the options and their selections. Once the staff is satisfied with their choice, they can use the \"setprice\" button to create variants needed for Shopify. Variants are what Shopify uses to set prices on a combination of options. Shopify only allows 99 variants and three options. This small selection is quite limiting for 3D printed objects with 20 color choices and multiple options.  We overcome Shopify's limitation by allowing the staff to create price buckets, allowing multiple option combinations to map to the same variant or price bucket. The buckets can be made manually or automatically through the auto-populate feature."},
+              {"p" : "The tool makes the process of generating the listing considerably easier. The staff can create one of three types of options; dropdown, color picker, or checkbox. More complex options are offered when the item in question needs a 3D render of it.  The tool supports duplication and reorganization and shows a live preview of the options and their selections. Once the staff is satisfied with their choice, they can use the \"Set Price\" button to create variants needed for Shopify. Variants are what Shopify uses to set prices on a combination of options. Shopify only allows 99 variants and three options. This small selection is quite limiting for 3D printed objects with 20 color choices and multiple options.  We overcome Shopify's limitation by allowing the staff to create price buckets, allowing multiple option combinations to map to the same variant or price bucket. The buckets can be made manually or automatically through the auto-populate feature."},
               { "link":
                 {
-                  "text" : "For a live example of the code running, please check out demo:",
+                  "text" : "For a live example of the code running, please check out the demo:",
                   "url": "https://turokhunter.github.io/Menu-Creator/",
                   "linkText" : "Git Live Example"
                 }
@@ -223,13 +223,21 @@
       {
         "title": "Visual Reasoning about Social Networks using Centrality Sensitivities",
         "authors":"Correa C., Crnovrsanin, T., and Ma KL.",
-        "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120",
+        "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120, ",
         "year":"2012",
         "url" : "https://ieeexplore.ieee.org/document/5669304",
         "image": "VisualReasoning.png"
       }
     ],
     "conference":[
+      {
+        "title": "Staged Animation Strategies for Online Dynamic Networks",
+        "authors":"Crnovrsanin, T., Shilpika, Chandrasegaran, S. and Ma KL.",
+        "venue": "IEEE Information Visualization Conference (InfoVis), ",
+        "year":"2020",
+        "url" : "https://ieeexplore.ieee.org/document/8781588",
+        "image": "stagedAnimation.png"
+      },
       {
         "title": "An Interactive System for Exploring Historical Fire Data",
         "authors":"Gomov M., Crnovrsanin, T., Dasu K. and Ma KL.",
@@ -331,12 +339,12 @@
   ],
   "awards": [
     {
-      "title": "Best Paper Award in 23rd International Symposium on Graph Drawing and Network Visualization",
-      "summary": "Recieved in 2015 for the paper \"An Incremental Layout Method for Visualizing Online Dynamic Graphs\"."
-    },
-    {
       "title": "GGCS Best Graduate Researcher Award",
       "summary": "Recieved in 2015 at University of California, Davis"
+    },
+    {
+      "title": "Best Paper Award in 23rd International Symposium on Graph Drawing and Network Visualization",
+      "summary": "Recieved in 2015 for the paper \"An Incremental Layout Method for Visualizing Online Dynamic Graphs\"."
     },
     {
       "title": "GGCS Graduate Fellowship",

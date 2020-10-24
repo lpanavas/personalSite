@@ -12,11 +12,11 @@ const items = [
       path: '/' 
       },
       {
-        name: 'resume',
+        name: 'Resume',
         path: '/resume.pdf' 
       },
       {
-        name: 'c.v.',
+        name: 'C.V.',
         path: '/cv.pdf' 
       },
     ]
