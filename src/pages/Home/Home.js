@@ -31,7 +31,7 @@ const Home = ({ user }) => {
     <Layout user={user}>
       <Row>
         <Col>
-          <Image src="MyFace.png" width={360} />
+          <Image src="MyFace.jpg" width={360} />
           <Media media={user.basics} />
         </Col>
         <Col>
