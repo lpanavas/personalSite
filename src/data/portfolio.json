@@ -4,8 +4,8 @@
     "picture": "happyTwitterPic.jpg",
     "label": "",
     "headline": "",
-    "summary": "I am a CS PhD student at the Data Visualization Lab at Northeastern University advised by Cody Dunne. My research focuses on making databases more accessible by creating better interfaces to the data. I am currently working in the area of privacy preserving visualization. My work focuses on better defining and evaluating the utility in the privacy-utility tradeoff seen in private data management. If this area of research interests you, please reach out to me for more information or to set up collaborations.",
-    "website": "https://lpanavas.github.io/homepage",
+    "summary": "I am a CS PhD student at the Data Visualization Lab at Northeastern University advised by Cody Dunne. My research focuses on explaiable AI for object detection algorithms as well as visualization for private data. My goal is to help everyday users evaluate and assess the utility of complicated model outputs. If this area of research interests you, please reach out to me for more information or to set up collaborations.",
+    "website": "https://lpanavas.github.io/personalSite/",
     "blog": "",
     "yearsOfExperience": 5,
     "email": "",
@@ -13,6 +13,11 @@
     "location": {},
     "phone": "",
     "profiles": [
+      {
+        "network": "Scholar",
+        "url": "https://scholar.google.com/citations?user=lgscvVoAAAAJ&hl=en",
+        "iconName": "scholar"
+      },
       {
         "network": "GitHub",
         "username": "lpanavas",
@@ -47,8 +52,8 @@
     {
       "title": "Visual Utility of Differentially Private Scatterplots",
       "summary": "Investigating the visual utility of scatterplots under a variety of differential privacy mechanisms to provide guidance for data curators wishing to display sensitive data.",
-      "image": "dataPrivacyImage.jpg",
-      "link": "https://docs.google.com/document/d/1fg0keGmfcP_KzbPmpTGzv96EGHiutSnV38OF0L4qpbM/edit?usp=sharing"
+      "image": "scatterplotPoster.png",
+      "link": "https://osf.io/5t68s/"
     },
     {
       "title": "PROTECT Database Interface",
@@ -60,12 +65,12 @@
       "title": "Children's Graphical Perception",
       "summary": "We conducted a classic graphical perception study on a population of children aged 8–12 and college-aged adults to determine how accurately participants judge differences of particular graphical encodings.",
       "image": "CGPFigure.png",
-      "link": "https://osf.io/ygrdv/?view_only=4289e925459f4f429b7780a7d198f767"
+      "link": "https://osf.io/r3dy2/"
     },
     {
       "title": "OmicSynth Gene Expression Explorer",
       "summary": "We conducted a classic graphical perception study on a population of children aged 8–12 and college-aged adults to determine how accurately participants judge differences of particular graphical encodings.",
-      "image": "omicSynth.png",
+      "image": "omicSynth.PNG",
       "link": "https://neu-cs-7250-s21.github.io/project-group-03-omicsynth/"
     }
   ],
