@@ -7,16 +7,16 @@ import { StyledNavMain, StyledNavSub } from "./styles";
 const items = [
   {
     name: "Home",
-    path: "/",
+    path: "/personalSite/",
     subpath: [
       {
         name: "Bio",
-        path: "/",
+        path: "/personalSite/",
       },
 
       {
         name: "C.V.",
-        path: "/LiudasPanavasCV.pdf",
+        path: "/personalSite/LiudasPanavasCV.pdf",
       },
     ],
   },
