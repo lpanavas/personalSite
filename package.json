@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://lpanavas.github.io/personalSite",
+  "homepage": "https://lpanavas.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
