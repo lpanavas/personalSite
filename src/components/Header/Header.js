@@ -22,7 +22,7 @@ const items = [
   },
   {
     name: "Publications",
-    path: "/personalSite/publications",
+    path: "/publications",
     subpath: [
       {
         name: "Conference",
