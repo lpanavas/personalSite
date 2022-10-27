@@ -32,7 +32,7 @@ const items = [
   },
   {
     name: "Projects",
-    path: "/personalSite#projects",
+    path: "/personalSite# projects",
     subpath: [
       {
         name: "Research",
