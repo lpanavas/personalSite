@@ -79,7 +79,7 @@
       "title": "Drawing Graphs with Multi-level Maps",
       "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
       "image": "mgmap.png",
-      "link": "/publications"
+      "link": "/personalSite/publications"
     }
   ],
   "projects": [

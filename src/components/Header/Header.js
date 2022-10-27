@@ -22,21 +22,21 @@ const items = [
   },
   {
     name: "Publications",
-    path: "/publications",
+    path: "/personalSite/publications",
     subpath: [
       {
         name: "Conference",
-        path: "/publications#conference",
+        path: "/personalSite/#publications#conference",
       },
     ],
   },
   {
     name: "Projects",
-    path: "/projects",
+    path: "/personalSite#projects",
     subpath: [
       {
         name: "Research",
-        path: "/projects#research",
+        path: "/personalSite/projects#research",
       },
     ],
   },
